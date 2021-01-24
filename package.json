@@ -1,0 +1,19 @@
+{
+  "name": "lee",
+  "version": "1.0.0",
+  "description": "A Web Game",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orlinzer/Lee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orlinzer/Lee/issues"
+  },
+  "homepage": "https://github.com/orlinzer/Lee#readme",
+  "dependencies": {}
+}

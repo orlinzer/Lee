@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
-// import App from './App';
+
+import Game from './components/Game';
+
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Test</h1>
-    <p>This will be a great game!!!</p>
+    <Game />
   </React.StrictMode>,
   document.getElementById('root')
 );

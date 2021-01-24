@@ -9,7 +9,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "author": "",
+  "author": "Or Linzer",
   "license": "ISC",
   "dependencies": {
     "react": "^17.0.1",

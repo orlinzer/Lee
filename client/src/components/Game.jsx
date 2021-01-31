@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Player from './Player';
+
 class Game extends React.Component {
   constructor (props) {
     super(props);
 
     this.state = {
+      x: 50
     };
   }
 
@@ -16,6 +19,10 @@ class Game extends React.Component {
   }
 
   componentDidMount () {
+    setInterval(() => {
+      // console.log('bla bla bla I\'m alive!!!');
+      this.setState((state, props) => { this.state.x++; return this.state; });
+    }, 1000 / 10);
   }
 
   componentDidCatch () {
@@ -23,7 +30,14 @@ class Game extends React.Component {
 
   render () {
     return (
-      <canvas>If you see this message, it means that you don't have HTML5 running on your browser.</canvas>
+      <svg
+      viewBox='0 0 300 300'
+      style={{
+        width: 300 + 'px',
+        height: 300 + 'px'
+      }}>
+        <Player x={this.state.x} />
+      </svg>
     );
   }
 }

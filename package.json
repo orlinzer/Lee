@@ -4,6 +4,7 @@
   "description": "A Web Game",
   "main": "index.js",
   "scripts": {
+    "update": "node develop/update.js"
   },
   "repository": {
     "type": "git",

@@ -20,12 +20,12 @@ class Player extends React.Component {
     console.log(prevProps);
     // console.log(prevState);
     // console.log(snapshot);
-    this.setState((state, props) => {
-      if (props.x) {
-        this.state.cx = props.x;
-        return this.state;
-      }
-    })
+    // this.setState((state, props) => {
+    //   if (props.x) {
+    //     this.state.cx = props.x;
+    //     return this.state;
+    //   }
+    // });
   }
 
   componentWillUnmount () {

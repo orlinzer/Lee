@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Player from './Player';
+import Controllers from '../scripts/Controller';
 
 class Game extends React.Component {
   constructor (props) {
@@ -21,7 +22,7 @@ class Game extends React.Component {
   componentDidMount () {
     setInterval(() => {
       // console.log('bla bla bla I\'m alive!!!');
-      this.setState((state, props) => { this.state.x++; return this.state; });
+      // this.setState((state, props) => { this.state.x++; return this.state; });
     }, 1000 / 10);
   }
 

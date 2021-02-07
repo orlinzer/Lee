@@ -26,6 +26,7 @@ class Player extends React.Component {
     //     return this.state;
     //   }
     // });
+
   }
 
   componentWillUnmount () {
